@@ -6,9 +6,13 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 const Carrossel = () => {
   return (
-    <div className="container-fluid" style={{backgroundColor:"#f5f5f5"}}>
-      <div className="container p-3" style={{width:"60%"}}>
-        <img src={bolinha} alt=""  style={{position:"absolute", left:"70%", top:"170px"}}/>
+    <div className="container-fluid" style={{ backgroundColor: "#f5f5f5" }}>
+      <div className="container p-3" style={{ width: "80%" }}>
+        <img
+          src={bolinha}
+          alt=""
+          style={{ position: "absolute", left: "80%", top: "100px" }}
+        />
         <div
           id="carouselExampleSlidesOnly"
           className="carousel slide"
@@ -16,89 +20,196 @@ const Carrossel = () => {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <div className="container">
+              <div className=" d-flex">
+                <div className=" container d-md-none d-lg-block d-none">
+                  <h1 className=" fw-bold">
+                    Queima de <br></br>estoque Nike🔥
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
+                </div>
+                <img
+                  src={tenis}
+                  className="d-block w-100"
+                  alt="Tenis"
+                  style={{ objectFit: "contain", maxHeight: "400px" }}
+                />
+              </div>
+              <div className=" container d-md-block d-lg-none">
                 <h1 className=" fw-bold">
                   Queima de <br></br>estoque Nike🔥
                 </h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <a
-                href="#"
-                className="btn btn-pink text-white fw-bold"
-                style={{ backgroundColor: "#d10f7d" }}
-              >
-                Ver Ofertas
-              </a>
+                <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
               </div>
-              <div>
-              <img
-                src={tenis}
-                className="d-block w-100"
-                alt="Tenis"
-                style={{ objectFit: "contain", maxHeight: "400px" }}
-              /></div>
             </div>
             <div className="carousel-item">
-            <div className=" container">
+              <div className=" d-flex">
+                <div className=" container d-md-none d-lg-block d-none">
+                  <h1 className=" fw-bold">
+                    Queima de <br></br>estoque Nike🔥
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
+                </div>
+                <img
+                  src={tenis}
+                  className="d-block w-100"
+                  alt="Tenis"
+                  style={{ objectFit: "contain", maxHeight: "400px" }}
+                />
+              </div>
+              <div className=" container d-md-block d-lg-none">
                 <h1 className=" fw-bold">
                   Queima de <br></br>estoque Nike🔥
                 </h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <a
-                href="#"
-                className="btn btn-pink text-white fw-bold"
-                style={{ backgroundColor: "#d10f7d" }}
-              >
-                Ver Ofertas
-              </a>
+                <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
               </div>
-              <img
-                src={tenis}
-                className="d-block w-100"
-                alt="Tenis"
-                style={{ objectFit: "contain", maxHeight: "400px" }}
-              />
             </div>
             <div className="carousel-item">
-            <div className="">
+              <div className=" d-flex">
+                <div className=" container d-md-none d-lg-block d-none">
+                  <h1 className=" fw-bold">
+                    Queima de <br></br>estoque Nike🔥
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
+                </div>
+                <img
+                  src={tenis}
+                  className="d-block w-100"
+                  alt="Tenis"
+                  style={{ objectFit: "contain", maxHeight: "400px" }}
+                />
+              </div>
+              <div className=" container d-md-block d-lg-none">
                 <h1 className=" fw-bold">
                   Queima de <br></br>estoque Nike🔥
                 </h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <a
-                href="#"
-                className="btn btn-pink text-white fw-bold"
-                style={{ backgroundColor: "#d10f7d" }}
-              >
-                Ver Ofertas
-              </a>
+                <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
               </div>
-              <img
-                src={tenis}
-                className="d-block w-100"
-                alt="Tenis"
-                style={{ objectFit: "contain", maxHeight: "400px" }}
-              />
             </div>
             <div className="carousel-item">
-            <div className="">
+              <div className=" d-flex">
+                <div className=" container d-md-none d-lg-block d-none">
+                  <h1 className=" fw-bold">
+                    Queima de <br></br>estoque Nike🔥
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
+                </div>
+                <img
+                  src={tenis}
+                  className="d-block w-100"
+                  alt="Tenis"
+                  style={{ objectFit: "contain", maxHeight: "400px" }}
+                />
+              </div>
+              <div className=" container d-md-block d-lg-none">
                 <h1 className=" fw-bold">
                   Queima de <br></br>estoque Nike🔥
                 </h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <a
-                href="#"
-                className="btn btn-pink text-white fw-bold"
-                style={{ backgroundColor: "#d10f7d" }}
-              >
-                Ver Ofertas
-              </a>
+                <a href="#"><button className="butaoo">
+                    <div>
+                      <span>
+                        <p>Ver-Ofertas</p>
+                      </span>
+                    </div>
+                    <div>
+                      <span>
+                        <p>Interesse?</p>
+                      </span>
+                    </div>
+                  </button></a>
               </div>
-              <img
-                src={tenis}
-                className="d-block w-100"
-                alt="Tenis"
-                style={{ objectFit: "contain", maxHeight: "400px" }}
-              />
             </div>
           </div>
         </div>

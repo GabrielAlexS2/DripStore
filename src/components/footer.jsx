@@ -1,3 +1,4 @@
+import React from "react";
 import logoDripPB from "../assests/logo/DigitallFooter.svg";
 import twiter from "../assests/logo/twiter.svg"
 import insta from "../assests/logo/insta.svg"
@@ -69,7 +70,6 @@ const footer = () => {
               </ul>
             </div>
   
-            {/* Coluna 4: Contato */}
             <div className="col-md-3 mb-4">
               <h6 className="text-uppercase fw-bold mb-3">Contato</h6>
               <address className="text-light">
