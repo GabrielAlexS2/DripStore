@@ -3,6 +3,11 @@
 html{
     font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .pesquisa:hover{
     background-color: #d10f7d;
     transition: all 0.5s ease-in-out;

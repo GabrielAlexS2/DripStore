@@ -1,7 +1,10 @@
 import logoDripPB from "../assests/logo/DigitallFooter.svg";
+import twiter from "../assests/logo/twiter.svg"
+import insta from "../assests/logo/insta.svg"
+import face from "../assests/logo/face.svg"
 const footer = () => {
     return (
-      <footer className="bg-dark text-light pt-5">
+      <footer className="bg-dark text-light pt-5 mt-5">
         <div className="container">
           <div className="row">
             
@@ -9,7 +12,7 @@ const footer = () => {
               
                 <img
                               src={logoDripPB}
-                              alt="Logo"
+                              alt="LogoPB"
                               className="me-2"
                               style={{ width: "150px"}}
                             />
@@ -19,13 +22,27 @@ const footer = () => {
               </p>
               <div>
                 <a href="#" className="text-light me-3">
-                  <i className="bi bi-facebook"></i>
+                <img
+                                src={face}
+                                alt="facebook"
+                                className=""
+                                style={{ width: "25px", height: "25px"}}
+                              />
                 </a>
                 <a href="#" className="text-light me-3">
-                  <i className="bi bi-instagram"></i>
+                <img
+                                src={insta}
+                                alt="instagram"
+                                className=""
+                                style={{ width: "25px"}}
+                              />
                 </a>
                 <a href="#" className="text-light">
-                  <i className="bi bi-twitter"></i>
+                  <img
+                                src={twiter}
+                                alt="twiter"
+                                style={{ width: "25px"}}
+                              />
                 </a>
               </div>
             </div>
@@ -66,7 +83,7 @@ const footer = () => {
           <hr className="border-secondary" />
   
           <div className="text-center pb-3">
-            © 2022 Digital College
+            © 2025 Digital College
           </div>
         </div>
       </footer>
