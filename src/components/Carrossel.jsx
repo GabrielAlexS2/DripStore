@@ -7,12 +7,13 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const Carrossel = () => {
   return (
     <div className="container-fluid" style={{ backgroundColor: "#f5f5f5" }}>
-      <div className="container p-3" style={{ width: "80%" }}>
+      <div className="container p-3" style={{ width: "80%"}}>
         <img
           src={bolinha}
           alt=""
-          style={{ position: "absolute", left: "80%", top: "100px" }}
+          style={{ position: "relative", left: "80%", top: "40px"}}
         />
+        
         <div
           id="carouselExampleSlidesOnly"
           className="carousel slide"
@@ -43,7 +44,7 @@ const Carrossel = () => {
                 </div>
                 <img
                   src={tenis}
-                  className="d-block w-100"
+                  className="d-block w-100 sapatin"
                   alt="Tenis"
                   style={{ objectFit: "contain", maxHeight: "400px" }}
                 />
@@ -91,7 +92,7 @@ const Carrossel = () => {
                 </div>
                 <img
                   src={tenis}
-                  className="d-block w-100"
+                  className="d-block w-100 sapatin"
                   alt="Tenis"
                   style={{ objectFit: "contain", maxHeight: "400px" }}
                 />
@@ -139,7 +140,7 @@ const Carrossel = () => {
                 </div>
                 <img
                   src={tenis}
-                  className="d-block w-100"
+                  className="d-block w-100 sapatin"
                   alt="Tenis"
                   style={{ objectFit: "contain", maxHeight: "400px" }}
                 />
@@ -187,7 +188,7 @@ const Carrossel = () => {
                 </div>
                 <img
                   src={tenis}
-                  className="d-block w-100"
+                  className="d-block w-100 sapatin"
                   alt="Tenis"
                   style={{ objectFit: "contain", maxHeight: "400px" }}
                 />
