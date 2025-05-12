@@ -14,7 +14,7 @@ const Carrossel = () => {
         <img
           src={bolinha}
           alt=""
-          style={{ position: "relative", left: "80%", top: "40px" }}
+          style={{ position: "relative", left: "75%", top: "40px" }}
         />
 
         <div
