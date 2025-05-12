@@ -151,6 +151,7 @@ a {
 
 .content-box .card-title:hover {
   transform: translate3d(0px, 0px, 60px);
+  color: #550231;
 }
 
 .content-box .card-content {
