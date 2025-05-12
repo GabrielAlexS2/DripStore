@@ -233,7 +233,7 @@ const Carrossel = () => {
             </div>
           </div>
         </div>
-        <div id="cartao">
+        <div id="cartao" className=" flex-sm-column flex-md-row flex-column">
           <div class="parent">
             <div class="card">
               <img src={camisa} alt="" />
