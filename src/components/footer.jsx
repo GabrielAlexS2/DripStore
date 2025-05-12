@@ -5,7 +5,7 @@ import insta from "../assests/logo/insta.svg"
 import face from "../assests/logo/face.svg"
 const footer = () => {
     return (
-      <footer className="bg-dark text-light pt-5 mt-5">
+      <footer className="bg-dark text-light pt-5 mt-2">
         <div className="container">
           <div className="row">
             
