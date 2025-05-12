@@ -76,7 +76,7 @@ a {
 }
 
 .sapatin {
-  animation: mover 2s ease-in-out infinite,spinAndMove 2s ease-in-out;
+  animation: mover 2s ease-in-out infinite, spinAndMove 2s ease-in-out;
 }
 
 @keyframes spinAndMove {
@@ -101,7 +101,7 @@ a {
     transform: translateX(0);
   }
 }
-#cartao{
+#cartao {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,11 +115,10 @@ a {
 
 .card {
   padding-top: 50px;
-  /* border-radius: 10px; */
   border: 3px solid rgb(255, 255, 255);
   transform-style: preserve-3d;
-  background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
-      repeating-linear-gradient(45deg,#d10f7d2f -6.25% 6.25%,#ffffff 0 18.75%);
+  background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
+    repeating-linear-gradient(45deg, #d10f7d2f -6.25% 6.25%, #ffffff 0 18.75%);
   background-size: 60px 60px;
   background-position: 0 0, 0 0;
   background-color: #f0f0f0;
@@ -146,7 +145,7 @@ a {
   font-size: 25px;
   font-weight: 900;
   transition: all 0.5s ease-in-out;
-  transform: translate3d(0px, 0px, 50px);
+  transform: translate3d(0px, 0px, 30px);
 }
 
 .content-box .card-title:hover {
@@ -184,6 +183,7 @@ a {
 
 .content-box .see-more:hover {
   transform: translate3d(0px, 0px, 60px);
+  color: rgb(0, 255, 0);
 }
 
 .date-box {
@@ -216,4 +216,3 @@ a {
   font-weight: 900;
   color: #d10f7d;
 }
- 
